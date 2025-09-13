@@ -10,15 +10,4 @@ DATABASES = {
     }
 }
 
-# Development-specific settings
-INSTALLED_APPS += [
-    'django.contrib.staticfiles',
-    'debug_toolbar',
-]
 
-MIDDLEWARE = ['debug_toolbar.middleware.DebugToolbarMiddleware'] + MIDDLEWARE
-
-# Debug toolbar settings
-INTERNAL_IPS = [
-    '127.0.0.1',
-]

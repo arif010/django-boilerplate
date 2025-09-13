@@ -1,0 +1,65 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Django DRF
+*.sqlite3
+
+# Environment
+.env
+.env.*
+venv/
+venv
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/0001_initial.py
+**/migrations/*.sqlite3
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
